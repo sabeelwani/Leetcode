@@ -16,7 +16,7 @@
 using namespace std;
 template <typename T>
 void show(T &iter){
-    std::cout << nl;
-    for_each(iter.b,iter.e,[](auto &x){std::cout << x << " ";});
-    std::cout << nl;
+    cout << nl;
+    for_each(iter.b,iter.e,[](auto &x){cout << x << " ";});
+    cout << nl;
 }

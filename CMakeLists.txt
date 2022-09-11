@@ -3,6 +3,7 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
+
 include_directories(.)
 include_directories(problems)
 include_directories(template)
