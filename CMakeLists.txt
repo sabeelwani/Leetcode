@@ -8,6 +8,8 @@ include_directories(.)
 include_directories(problems)
 include_directories(template)
 
+#add_executable(Leetcode
+#        template/template.h problems/leetcode_120.cpp)
 add_executable(Leetcode
-        problems/leetcode_10.cpp
-        template/template.h)
+        template/template.h
+        problems/Leetcode_85.cpp)
